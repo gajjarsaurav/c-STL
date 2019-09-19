@@ -11,5 +11,7 @@ int sum = 0;
         v1.pop_back();
     }
     cout<<sum;
+//  for displaying the max size
+    cout<<v1.max_size();
     return 0;
 }
