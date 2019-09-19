@@ -21,4 +21,11 @@ int sum = 0;
     for(int i = 0; i<v.size(); i++){
         cout<<v[i];
     }
+
+    //  contents after increasing
+    v.resize(12, 7);
+    for(int i = 0; i<v.size(); i++){
+        cout<<v[i];
+    }
+    return 0;
 }
