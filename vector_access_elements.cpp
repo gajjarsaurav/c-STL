@@ -15,6 +15,7 @@ int main()
 
     //  vector::operator '[]'
     //  used for referencing the element specified in the operator
+    
     //  vector::at()
     vector<int> v;
     for(int i=0; i < 9; i++){
@@ -25,6 +26,7 @@ int main()
     //  for swapping vectors
     v1.resize(1);
     v1.swap(v2);
+     
     // printing the first vector 
     cout << endl << "v1 = "; 
     for (auto it = v1.begin(); it < v1.end(); ++it) 
